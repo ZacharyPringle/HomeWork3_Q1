@@ -4,3 +4,4 @@
 #include <sstream>
 using namespace std;
 #include "UndergradStudent.h"
+#include "Student.h"
