@@ -1,3 +1,12 @@
+/*******************************************************************************************************
+ * Author: Zachary Pringle                                                                             *
+ * Program: hw3, q1                                                                                    *
+ * Date Created: November 4, 2021                                                                      *
+ * Date Last Modified : November 7, 2021                                                               *
+ * Usage: No command line arguments                                                                    *
+ * Problem: Create a program that can draw and calculate the areas of a triangle and a rectangle using *
+ *          classes that are children of a Polygon class                                               *
+ *******************************************************************************************************/
 #include <iostream>
 #include <string>
 #include "UndergradStudent.h"

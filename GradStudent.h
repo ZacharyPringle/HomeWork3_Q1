@@ -11,10 +11,10 @@ using namespace std;
 
 class GradStudent: public Student{
 public:
-    GradStudent():major(""){}
-    GradStudent(string maj): major(maj){}
-    string getMajor(){return major;}
-    void setMajor(string majorName){major=majorName;}
+    GradStudent():major(""){}//default and sets the major to nothing in the string
+    GradStudent(string maj): major(maj){}//constructor that can be called and sets the major
+    string getMajor(){return major;}//returns major
+    void setMajor(string majorName){major=majorName;}//sets the major from a string
 
 protected:
     string major;

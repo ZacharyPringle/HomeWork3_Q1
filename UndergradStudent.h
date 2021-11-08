@@ -10,12 +10,12 @@ using namespace std;
 
 class UndergradStudent:public Student{
 public:
-    UndergradStudent():major(""), minor(""){}
-    UndergradStudent(string maj, string min):major(maj), minor(min){}
-    string getMajor(){return major;}
-    void setMajor(string majorName){major=majorName;}
-    string getMinor(){return minor;}
-    void setMinor(string minorName){minor=minorName;}
+    UndergradStudent():major(""), minor(""){}//default setting the major and the minor to nothing in the string
+    UndergradStudent(string maj, string min):major(maj), minor(min){}//constructor that takes two strings to set major and minor when called
+    string getMajor(){return major;}//returns the major
+    void setMajor(string majorName){major=majorName;}//sets the major with a string value
+    string getMinor(){return minor;}//returns minor
+    void setMinor(string minorName){minor=minorName;}//sets minor with a string value
 protected:
 string major;
 string minor;
